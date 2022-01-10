@@ -1,0 +1,3 @@
+rootProject.name = 'fgmod'
+
+include 'fgmod-common', 'fgmod-forge', 'fgmod-fabric'
