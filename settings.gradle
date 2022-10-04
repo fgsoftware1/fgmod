@@ -1,3 +1,8 @@
-rootProject.name = 'fgmod'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://maven.minecraftforge.net/' }
+    }
+}
 
-include 'fgmod-common', 'fgmod-forge', 'fgmod-fabric'
+rootProject.name = 'fgmod'
